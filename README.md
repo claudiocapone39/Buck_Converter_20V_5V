@@ -48,8 +48,13 @@ The converter's efficiency has been evaluated as the ratio between output and in
 ## PCB
 The PCB has been designed in Autodesk Fusion 360
 
-
+<img width=50% height=50% alt="Screenshot 2025-12-17 235558" src="https://github.com/user-attachments/assets/e611f090-c066-4931-a166-45aec86c0b13" />
 <img width=50% height=50% alt="Buck_Converter_PCB_top" src="https://github.com/user-attachments/assets/2bcdf24f-e6ad-4584-aee3-013117fbfdd6" />
+<img width=50% height=50% alt="Buck_Converter_PCB_bottom" src="https://github.com/user-attachments/assets/46aa4b43-9636-48cf-abf6-952d8e4dbd41" />
+
+
+
+
 
 
 
