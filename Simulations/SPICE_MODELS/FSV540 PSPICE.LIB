@@ -1,0 +1,34 @@
+********************************************************************************
+* ON Semiconductor Schottky Rectifier diode FSV540 Model Library
+* Last Update: July 22, 2017
+* Model Version: 1.00
+* Simulator: Pspice 17.2
+*
+********************************************************************************
+* Model Contacts:
+*    James Victory     James.Victory@onsemi.com
+*    Jie Bai           jie.bai@onsemi.com
+*
+********************************************************************************
+* Reversion History:
+*	Vers.	Date		Brief Description
+*	1.00	07/22/2016	Model is based on datasheet
+*
+********************************************************************************
+.subckt FSV540 1 2 3
++ params: area=1  
+r1 1 A 1e-5
+r2 2 A 1e-5  
+d1 A 3 dsky {area}
+.model dsky d  
++ is=3.704E-06 rs=0.01819 n=1.069  
++ eg=0.7417 ikf=7.996 
++ isr=3.179E-07 nr=1.5 
++ cjo=7.371E-10 vj=0.3142 m=0.4216  
++ fc=0.5 tt=1E-15 
++ trs1=0.0002957 trs2=0  
++ xti=0.2885 tikf=-0.006363 
++ bv=40 ibv=0.0008 ibvl=1 
++ nbv=1 nbvl=1  
+.ends FSV540
+
