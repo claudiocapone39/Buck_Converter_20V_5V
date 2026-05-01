@@ -2,7 +2,7 @@
 
 This Synchronous Buck converter takes 10-20V range as input voltage and outputs 5A@5V. 
 It features an LCD screen to show information and a user button to interact with the device.
-The board features an LPC1313 NXP Microcontroller in addition with a buffer stage and RC filter for accurate feedback acquisition.
+The board features an LPC1313 NXP Microcontroller in addition with a buffer stage and RC filter for noise attenuation.
 
 <img width=50% height=50% alt="Buck_Converter_PCB_isometric" src="https://github.com/user-attachments/assets/5d0bc755-0999-4f5c-b4dd-5cbbbefad3f8" />
 
